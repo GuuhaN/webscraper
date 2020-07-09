@@ -1,0 +1,124 @@
+[
+    {
+        "base_category": "Alle artikelen",
+        "base_url": "https://www.bol.com/nl/l/alle-artikelen/",
+        "sub_categories": [
+            {
+                "category": "Boeken",
+                "url": "https://www.bol.com/nl/l/boeken/N/8299/"
+            },
+            {
+                "category": "Muziek",
+                "url": "https://www.bol.com/nl/l/muziek/N/3132/"
+            },
+            {
+                "category": "Films & Series",
+                "url": "https://www.bol.com/nl/l/films-en-series/N/3133/"
+            },
+            {
+                "category": "Games",
+                "url": "https://www.bol.com/nl/l/games/N/3135/"
+            },
+            {
+                "category": "Speelgoed",
+                "url": "https://www.bol.com/nl/l/speelgoed/N/7934/"
+            },
+            {
+                "category": "Baby",
+                "url": "https://www.bol.com/nl/l/babyspullen/N/11271/"
+            },
+            {
+                "category": "Damesmode",
+                "url": "https://www.bol.com/nl/l/damesmode/N/46673/"
+            },
+            {
+                "category": "Herenmode",
+                "url": "https://www.bol.com/nl/l/herenmode/N/47024/"
+            },
+            {
+                "category": "Kindermode",
+                "url": "https://www.bol.com/nl/l/kindermode/N/16947/"
+            },
+            {
+                "category": "Persoonlijke verzorging",
+                "url": "https://www.bol.com/nl/l/verzorgingsproducten/N/12442/"
+            },
+            {
+                "category": "Sport",
+                "url": "https://www.bol.com/nl/l/sportartikelen/N/14648/"
+            },
+            {
+                "category": "Beauty",
+                "url": "https://www.bol.com/nl/l/beauty/N/43228/"
+            },
+            {
+                "category": "Klussen",
+                "url": "https://www.bol.com/nl/l/klusspullen/N/13155/"
+            },
+            {
+                "category": "Erotiek",
+                "url": "https://www.bol.com/nl/l/erotiek-shop/N/12605/"
+            },
+            {
+                "category": "Gezondheid",
+                "url": "https://www.bol.com/nl/l/gezondheidsproducten/N/12541/"
+            },
+            {
+                "category": "Huishouden",
+                "url": "https://www.bol.com/nl/l/huishouden/N/12001/"
+            },
+            {
+                "category": "Reisbagage & Reisaccessoires",
+                "url": "https://www.bol.com/nl/l/reisbagage-reisaccessoires/N/16799/"
+            },
+            {
+                "category": "Kantoor & School",
+                "url": "https://www.bol.com/nl/l/kantoor-school/N/25897/"
+            },
+            {
+                "category": "Computer",
+                "url": "https://www.bol.com/nl/l/computers/N/3134/"
+            },
+            {
+                "category": "Koken & Tafelen",
+                "url": "https://www.bol.com/nl/l/koken-tafelen/N/11764/"
+            },
+            {
+                "category": "Kamperen & Outdoor",
+                "url": "https://www.bol.com/nl/l/kamperen-outdoor/N/15270/"
+            },
+            {
+                "category": "Fietsen & Accessoires",
+                "url": "https://www.bol.com/nl/l/fietsen-accessoires/N/15670/"
+            },
+            {
+                "category": "Elektronica",
+                "url": "https://www.bol.com/nl/l/elektronica/N/3136/"
+            },
+            {
+                "category": "Tuin",
+                "url": "https://www.bol.com/nl/l/tuinspullen/N/12974/"
+            },
+            {
+                "category": "Wonen",
+                "url": "https://www.bol.com/nl/l/woonartikelen/N/14035/"
+            },
+            {
+                "category": "Dieren",
+                "url": "https://www.bol.com/nl/l/dierenbenodigdheden/N/12748/"
+            },
+            {
+                "category": "Auto & Motor",
+                "url": "https://www.bol.com/nl/l/auto-motor/N/43646/"
+            },
+            {
+                "category": "Drank",
+                "url": "https://www.bol.com/nl/l/drank/N/36080/"
+            },
+            {
+                "category": "Cadeaukaarten",
+                "url": "https://www.bol.com/nl/l/cadeaukaarten/N/20639/"
+            }
+        ]
+    }
+]

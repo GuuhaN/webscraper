@@ -1,0 +1,14 @@
+version: 3
+
+prt-account-service:
+  image: "IMAGE":latest <- in docker hub
+  depends-on: 
+    -
+    -
+  ports:
+    - 8081:80
+
+    kubectl config set-context 
+    docker-compose -f deployment-docker-compose.yaml config > docker-compose-resolved.yaml && kompose convert --out output -f docker-compose-resolved.yaml
+    kubectl apply -f .
+    ACCEPT_EULA: 1 of 0
