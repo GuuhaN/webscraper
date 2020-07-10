@@ -13,21 +13,25 @@ class BolProduct(scrapy.Item):
 class ProductInfo(scrapy.Spider):
     name = "productinfo"
 
-    def __init__(self, reviewCount='', url=''):
+    def __init__(self, pages='', reviewcount='', start_url='', *args, **kwargs):
+        super(ProductInfo, self).__init__(*args, **kwargs)
         try:
-            self.pages = int(input("Hoeveel pagina's wilt u scrapen? "))
+            # self.pages = int(input("Hoeveel pagina's wilt u scrapen? "))
+            self.pages = int(pages)
+            self.start_url = start_url
         except ValueError:
             self.pages = 1
+            self.start_url = 'https://www.bol.com/nl/l/fietsen-accessoires/N/15670/?view=list'
 
-        if(reviewCount == ''):
-            reviewCount = 5
+        if(reviewcount == ''):
+            reviewcount = 5
 
-        self.reviewCriteria = int(reviewCount)
-        self.url = url if url == 'None' else "https://www.bol.com/nl/l/alle-artikelen/"
+        self.reviewCriteria = int(reviewcount)
+        # self.start_url = start_url if start_url == 'None' else "https://www.bol.com/nl/l/fietsen-accessoires/N/15670/?view=list"
         self.pageCount = 0
 
     def start_requests(self):
-        yield scrapy.Request(self.url)
+        yield scrapy.Request(self.start_url)
 
     def parse(self, response):
         if(self.pageCount < self.pages):
