@@ -20,7 +20,7 @@ class ProductInfo(scrapy.Spider):
             self.pages = int(pages)
             self.start_url = start_url if start_url != '' else "https://www.bol.com/nl/l/fietsen-accessoires/N/15670/?view=list"
         except ValueError:
-            self.pages = 1
+            self.pages = 1 
 
         if(reviewcount == ''):
             reviewcount = 5
