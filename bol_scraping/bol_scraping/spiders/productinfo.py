@@ -18,10 +18,9 @@ class ProductInfo(scrapy.Spider):
         try:
             # self.pages = int(input("Hoeveel pagina's wilt u scrapen? "))
             self.pages = int(pages)
-            self.start_url = start_url
+            self.start_url = start_url if start_url != '' else "https://www.bol.com/nl/l/fietsen-accessoires/N/15670/?view=list"
         except ValueError:
             self.pages = 1
-            self.start_url = 'https://www.bol.com/nl/l/fietsen-accessoires/N/15670/?view=list'
 
         if(reviewcount == ''):
             reviewcount = 5
